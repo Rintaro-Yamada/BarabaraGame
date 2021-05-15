@@ -15,6 +15,10 @@
 		0C89F155264E965D003A1052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C89F153264E965D003A1052 /* LaunchScreen.storyboard */; };
 		0C89F160264E965D003A1052 /* BarabaraGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C89F15F264E965D003A1052 /* BarabaraGameTests.swift */; };
 		0C89F16B264E965D003A1052 /* BarabaraGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C89F16A264E965D003A1052 /* BarabaraGameUITests.swift */; };
+		0C89F17A264F4A04003A1052 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C89F178264F4A03003A1052 /* bar.png */; };
+		0C89F17B264F4A04003A1052 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C89F179264F4A04003A1052 /* tail.png */; };
+		0C89F17D264F57A6003A1052 /* GameViewContorller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C89F17C264F57A6003A1052 /* GameViewContorller.swift */; };
+		0C89F181264F5DB7003A1052 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C89F180264F5DB7003A1052 /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		0C89F166264E965D003A1052 /* BarabaraGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarabaraGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C89F16A264E965D003A1052 /* BarabaraGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarabaraGameUITests.swift; sourceTree = "<group>"; };
 		0C89F16C264E965D003A1052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C89F178264F4A03003A1052 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		0C89F179264F4A04003A1052 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		0C89F17C264F57A6003A1052 /* GameViewContorller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewContorller.swift; sourceTree = "<group>"; };
+		0C89F180264F5DB7003A1052 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,8 @@
 		0C89F13C264E9659003A1052 = {
 			isa = PBXGroup;
 			children = (
+				0C89F180264F5DB7003A1052 /* RankingViewController.swift */,
+				0C89F17C264F57A6003A1052 /* GameViewContorller.swift */,
 				0C89F147264E9659003A1052 /* BarabaraGame */,
 				0C89F15E264E965D003A1052 /* BarabaraGameTests */,
 				0C89F169264E965D003A1052 /* BarabaraGameUITests */,
@@ -99,6 +109,8 @@
 		0C89F147264E9659003A1052 /* BarabaraGame */ = {
 			isa = PBXGroup;
 			children = (
+				0C89F178264F4A03003A1052 /* bar.png */,
+				0C89F179264F4A04003A1052 /* tail.png */,
 				0C89F148264E9659003A1052 /* AppDelegate.swift */,
 				0C89F14A264E9659003A1052 /* SceneDelegate.swift */,
 				0C89F14C264E9659003A1052 /* ViewController.swift */,
@@ -232,8 +244,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C89F155264E965D003A1052 /* LaunchScreen.storyboard in Resources */,
+				0C89F17B264F4A04003A1052 /* tail.png in Resources */,
 				0C89F152264E965D003A1052 /* Assets.xcassets in Resources */,
 				0C89F150264E9659003A1052 /* Main.storyboard in Resources */,
+				0C89F17A264F4A04003A1052 /* bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C89F181264F5DB7003A1052 /* RankingViewController.swift in Sources */,
+				0C89F17D264F57A6003A1052 /* GameViewContorller.swift in Sources */,
 				0C89F14D264E9659003A1052 /* ViewController.swift in Sources */,
 				0C89F149264E9659003A1052 /* AppDelegate.swift in Sources */,
 				0C89F14B264E9659003A1052 /* SceneDelegate.swift in Sources */,
